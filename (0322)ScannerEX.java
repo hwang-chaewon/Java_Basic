@@ -1,7 +1,7 @@
 import java.util.Scanner; //import: 만들어진 것을 추가한다
 
 public class ScannerEX_0322 {
-
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
