@@ -6,7 +6,7 @@ public class TernaryOperator_0324 {
 		
 		int a=3, b=5;
 		
-		System.out.println("µÎ ¼öÀÇ Â÷ÀÌ´Â "+((a>b)?(a-b):(b-a)));
+		System.out.println("ÂµÃŽ Â¼Ã¶Ã€Ã‡ Ã‚Ã·Ã€ÃŒÂ´Ã‚ "+((a>b)?(a-b):(b-a)));
 
 	}
 
