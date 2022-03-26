@@ -8,7 +8,7 @@ public class Grading_0329 {
 		char grade;
 		Scanner scanner=new Scanner(System.in);
 		
-		System.out.print("Á¡¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä(0~100Á¡): ");
+		System.out.print("ì ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”(0~100ì ): ");
 		int score=scanner.nextInt();
 		
 		if(score>=90) 
@@ -22,7 +22,7 @@ public class Grading_0329 {
 		else 
 			grade='F';
 		
-		System.out.println("ÇĞÁ¡Àº "+grade+"ÀÔ´Ï´Ù");
+		System.out.println("í•™ì ì€ "+grade+"ì…ë‹ˆë‹¤");
 		
 		scanner.close();
 
