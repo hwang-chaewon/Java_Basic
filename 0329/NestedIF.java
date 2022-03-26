@@ -5,21 +5,21 @@ public class NestedIF_0329 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scanner =new Scanner(System.in);
-		System.out.print("Á¡¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä(0~100Á¡): ");
+		System.out.print("ì ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš”(0~100ì ): ");
 		int score=scanner.nextInt();
-		System.out.print("ÇÐ³âÀ» ÀÔ·ÂÇÏ¼¼¿ä(1~4): ");
+		System.out.print("í•™ë…„ì„ ìž…ë ¥í•˜ì„¸ìš”(1~4): ");
 		int year=scanner.nextInt();
 		
 		if(score>=60) {
 			if(year !=4)
-				System.out.println("ÇÕ°Ý");
+				System.out.println("í•©ê²©");
 			else if(score>=70)
-				System.out.println("ÇÕ°Ý");
+				System.out.println("í•©ê²©");
 			else
-				System.out.println("ºÒÇÕ°Ý");
+				System.out.println("ë¶ˆí•©ê²©");
 		}
 		else
-			System.out.println("ºÒÇÕ°Ý");
+			System.out.println("ë¶ˆí•©ê²©");
 		
 		scanner.close();
 
