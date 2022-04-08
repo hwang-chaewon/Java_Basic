@@ -11,14 +11,14 @@ public class ArrayAccess_0405 {
 		intArray=new int[5];
 		
 		int max=0;
-		System.out.println("¾ç¼ö 5°³¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+		System.out.println("ì–‘ìˆ˜ 5ê°œë¥¼ ì…ë ¥í•˜ì„¸ìš”: ");
 		
 		for(int i=0;i<5;i++) {
 			intArray[i]=scanner.nextInt();
 			if(intArray[i]>max)
 				max=intArray[i];
 		}
-		System.out.println("°¡Àå Å« ¼ö´Â "+max+"ÀÔ´Ï´Ù. ");
+		System.out.println("ê°€ì¥ í° ìˆ˜ëŠ” "+max+"ì…ë‹ˆë‹¤. ");
 		
 		scanner.close();
 
