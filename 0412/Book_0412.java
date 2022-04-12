@@ -6,7 +6,7 @@ public class Book_0412 {
 	
 	public Book_0412(String t) {
 		title=t;
-		author="ÀÛÀÚ¹Ì»ó";
+		author="ì‘ìë¯¸ìƒ";
 	}
 	
 	public Book_0412(String t, String a) {
@@ -16,8 +16,8 @@ public class Book_0412 {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Book_0412 littlePrince =new Book_0412("¾î¸°¿ÕÀÚ", "»ıÅÃÁãÆä¸®");
-		Book_0412 lovestory =new Book_0412("ÃáÇâÀü");
+		Book_0412 littlePrince =new Book_0412("ì–´ë¦°ì™•ì", "ìƒíƒì¥í˜ë¦¬");
+		Book_0412 lovestory =new Book_0412("ì¶˜í–¥ì „");
 		System.out.println(littlePrince.title+" "+littlePrince.author);
 		System.out.println(lovestory.title+" "+lovestory.author);
 	}
