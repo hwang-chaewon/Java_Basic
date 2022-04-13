@@ -1,15 +1,15 @@
 public class ArrayPassing_0414 {
 	
-	static void replacespace(char a[]) {//ÀÌµû main¿¡¼­ ½á¾ß ÇÏ±â ¶§¹®¿¡ staticÀ» ºÙÀÎ´Ù. staticÀº Àü¿ªÃ³¸®,Àü¿ªÈ­¶ó°í ÀÌÇØÇÏ¸é ÁÁÀ» °Í °°´Ù
+	static void replacespace(char a[]) {//ì´ë”° mainì—ì„œ ì¨ì•¼ í•˜ê¸° ë•Œë¬¸ì— staticì„ ë¶™ì¸ë‹¤. staticì€ ì „ì—­ì²˜ë¦¬,ì „ì—­í™”ë¼ê³  ì´í•´í•˜ë©´ ì¢‹ì„ ê²ƒ ê°™ë‹¤
 		for(int i=0;i<a.length;i++)
 			if(a[i]==' ')
 				a[i]='!';
 		
 	}
-	static void printCharArray(char a[]) {//staticÀ» ºÙ¿©¾ß main¿¡¼­ È£Ãâ °¡´ÉÇÏ¹Ç·Î, ¿ª½Ã staticÀ» ºÙÀÎ´Ù
+	static void printCharArray(char a[]) {//staticì„ ë¶™ì—¬ì•¼ mainì—ì„œ í˜¸ì¶œ ê°€ëŠ¥í•˜ë¯€ë¡œ, ì—­ì‹œ staticì„ ë¶™ì¸ë‹¤
 		for(int i=0;i<a.length;i++)
 			System.out.print(a[i]);
-		System.out.println(); //ÀÌ ÁÙÀÇ ¿ªÇÒ: ÁÙ¹Ù²Ş
+		System.out.println(); //ì´ ì¤„ì˜ ì—­í• : ì¤„ë°”ê¿ˆ
 	}
 
 	public static void main(String[] args) {
