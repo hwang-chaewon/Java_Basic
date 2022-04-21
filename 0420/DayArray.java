@@ -4,15 +4,15 @@ public class DayArray_5 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		char []day= {'ÀÏ','¿ù','È­','¼ö','¸ñ','±İ','Åä'};
-		System.out.print("Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+		char []day= {'ì¼','ì›”','í™”','ìˆ˜','ëª©','ê¸ˆ','í† '};
+		System.out.print("ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”: ");
 		Scanner scanner=new Scanner(System.in);
 		int i=scanner.nextInt();
 		if(i>=0) {
 			System.out.print(day[i%day.length]);
 		}
 		else
-			System.out.print("ÀÎµ¦½º·Î À½¼ö´Â ºÒ°¡ÇÕ´Ï´Ù. ");
+			System.out.print("ì¸ë±ìŠ¤ë¡œ ìŒìˆ˜ëŠ” ë¶ˆê°€í•©ë‹ˆë‹¤. ");
 		scanner.close();
 		}
 
