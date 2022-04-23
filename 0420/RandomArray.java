@@ -24,7 +24,7 @@ public class RandomArray_2 {
 			}
 			i++;
 		}
-		System.out.println("ÇÕÀº "+sum);
+		System.out.println("Ã‡Ã•Ã€Âº "+sum);
 
 	}
 
